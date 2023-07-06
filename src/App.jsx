@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import UseCallbackComp from './components/useCallbackComp/UseCallbackComp'
+import UseRefComp from './components/useRefComp/UseRefComp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <h1>Learning Hooks</h1>
-      <UseCallbackComp></UseCallbackComp>
+      {/* <UseCallbackComp></UseCallbackComp> */}
+      <UseRefComp></UseRefComp>
     </>
   )
 }
